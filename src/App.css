@@ -1,0 +1,32 @@
+.compositions {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+}
+
+/* .cat1{
+  text-align: center;
+  width: 18rem;
+} */
+
+.book-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.expanded {
+  width: 100%;
+}
+
+.expanded-details {
+  display: flex;
+  align-items: center;
+}
+
+.expanded img {
+  width: 100px;
+  height: 150px;
+  margin-right: 10px;
+}
